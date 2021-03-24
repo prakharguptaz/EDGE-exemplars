@@ -26,9 +26,15 @@ The code and sample files for data processing along with a readme are present in
 Requirements: Code for the models used transformers==2.4.0 and torch==1.4.0 (later versions of torch should also work)
 
 To train the *EDGE* model, run the train_robust.py file
-`python train_robust.py --dataset_path $LOCATION_OF_JSON_DATA`
+
+```console
+python train_robust.py --dataset_path $LOCATION_OF_JSON_DATA`
+```
 
 To generate responses for the test json, you can euther run the script run_generate.py, or its multiprocessing version run_generate_batch.py
-
-`python run_generate.py --model_checkpoint $TRAINED_MODEL_FOLDER --dataset_path $LOCATION_OF_JSON_DATA`
-`python run_generate_batch.py --model_checkpoint $TRAINED_MODEL_FOLDER --dataset_path $LOCATION_OF_JSON_DATA`
+```console
+python run_generate.py --model_checkpoint $TRAINED_MODEL_FOLDER --dataset_path $LOCATION_OF_JSON_DATA`
+```
+```console
+python run_generate_batch.py --model_checkpoint $TRAINED_MODEL_FOLDER --dataset_path $LOCATION_OF_JSON_DATA`
+```
