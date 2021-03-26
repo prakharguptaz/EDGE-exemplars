@@ -14,7 +14,7 @@ Semantic frames capture the meaning of the exemplars rather than their surface f
 > Dialogue systems pretrained with large language models generate locally coherent responses, but lack fine-grained control over responses necessary to achieve specific goals. A promising method to control response generation isexemplar-based generation, in which models edit exemplar responses that are retrieved from training data, or hand-written to strategically address discourse-level goals, to fit new dialogue contexts. However, current exemplar-based approaches often excessively copy words from the exemplar responses, leading to incoherent replies. We present an Exemplar-based Dialogue Generation model, EDGE, that uses the semantic frames present in exemplar responses to guide response generation. We show that controlling dialogue generation based on the semantic frames of exemplars improves the coherence of generated responses, while preserving semantic meaning and conversation goals present in exemplar responses.
 
 ## Example of input and outputs
-![Example figure](https://github.com/prakharguptaz/EDGE-exemplars/blob/main/edge-example.png?raw=true)
+<img src="https://github.com/prakharguptaz/EDGE-exemplars/blob/main/edge-example.png?raw=true" width="400" height="360">
 EDGE conditions on the semantic frames of the exemplars for the response generation
 
 ## Model diagram and input representation
